@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+
+<head>
+    <!--#include file="head.html"-->
+    <title><!--#if expr="-n \"${page_title}\""--><!--#echo var="page_title"--> &ndash; <!--#endif--> Raresh Nistor</title>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="back-button">←</a>
+        <span class="title"><!--#echo var="page_title"--></span>
+    </header>
+    <main>

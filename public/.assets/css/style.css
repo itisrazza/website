@@ -1,0 +1,136 @@
+
+@import url('fonts.css');
+
+:root {
+    /* colors for retinal burnout mode */
+    --color-background:   #FAFAFA;
+    --color-foreground:   #212121;
+    --color-accent-dark:  #8E44AD;
+    --color-accent-light: #9B59B6;
+
+    /* fonts */
+    --sans-font-family: "Inter", sans-serif;
+    --sans-font-size:   16px;
+    --mono-font-family: "Iosevka Web", monospace;
+    --mono-font-size:   var(--sans-font-size);
+    --serif-font-famiy: "Noto Serif", serif;
+
+    /* get going */
+    font-family: var(--sans-font-family);
+    font-size:   var(--sans-font-size);
+    background:  var(--color-background);
+    color:       var(--color-foreground);
+    letter-spacing: -0.011em;
+}
+
+body {
+    margin: 8px;
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        margin: 5vw;
+    }
+}
+ 
+@media only screen and (min-width: 500px) {
+    body {
+        margin: 5vh 10vw;
+    }
+}
+
+/* container */
+
+main {
+
+}
+
+.container {
+
+}
+
+/* links */
+
+a {
+    color: var(--color-accent-dark);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    border-bottom: 1px solid;
+}
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+/* monospace */
+
+pre, code {
+    font-family: var(--mono-font-family);
+    font-size: var(--mono-font-size);
+    font-variant-ligatures: contextual;
+}
+
+/* header */
+
+body > header {
+    font-size: 14px;
+}
+
+body > header .back-button {
+    /* display: inline-block; */
+    position: relative;
+    padding: 8px;
+    border: none;
+    opacity: 0.8;
+    transition: transform .2s, opacity .5s;
+}
+
+body > header .back-button:hover {
+    opacity: 1;
+    transform: scaleX(5);
+}
+
+body > header .title {
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+body > footer {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* avatar */
+
+.img-avatar {
+    border-radius: 50%;
+    margin: 2em 0 1em;
+}
+
+/* emoji */
+
+.emoji {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* comfort mode: my eyes thank me */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background:   #212121;
+        --color-foreground:   #FAFAFA;
+        --color-accent-dark:  #CE93D8;
+        --color-accent-light: #4A148C;
+    }
+}

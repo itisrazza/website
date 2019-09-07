@@ -1,0 +1,17 @@
+<!--#set var="page_title" value="404 Not Found"-->
+<!--#include virtual=".includes/page-header.shtml"-->
+
+<h1 style="font-style:normal">😨</h1>
+<h2>Sorry. I dropped the ball.</h2>
+<p>The file you're looking for doesn't seem to be here.</p>
+<p>It could have disappeared into the void, or a <code>void*</code> was <code>free</code>d before its time. I might've existed in the past
+    but got deleted in the (n-1)th website interation...
+    only God knows.</p>
+<p>Some things to keep in mind:</p>
+<ul>
+    <li>Unless it's in <a href="/files">files</a>, I generally avoid file extentions.</li>
+    <li>If it's a link from before 2019, I guarantee it's broken.</li>
+    <li>Try <a href="/">going home</a> and go from there.</li>
+</ul>
+
+<!--#include virtual=".includes/page-footer.shtml"-->
