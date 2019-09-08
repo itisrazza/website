@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.well-known/
+Disallow: /.includes/
+Disallow: /cgi-bin/
+Disallow: /files/
+Disallow: /~razz/

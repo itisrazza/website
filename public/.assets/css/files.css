@@ -1,0 +1,33 @@
+@import "style.css";
+
+table#indexlist {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+tr {
+    border: none;
+    padding: 0;
+}
+
+tr.indexhead {
+    font-style: italic;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+tr.indexbreakrow {
+    display: none;
+}
+
+tr.indexcolicon {
+    max-width: 24px;
+}
+
+@media only screen and (max-width: 640px) {
+    .indexcoldesc {
+        display: none;
+    }
+}
