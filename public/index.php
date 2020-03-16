@@ -2,7 +2,7 @@
 <html lang="en-NZ">
 
 <head>
-    <!--#include virtual=".includes/head.html"-->
+    <?php include '.includes/head.html' ?>
     <link rel="stylesheet" href="/.assets/css/home.css">
     <title>Raresh Nistor</title>
 </head>

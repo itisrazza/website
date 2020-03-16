@@ -1,5 +1,9 @@
-<!--#set var="page_title" value="About me"-->
-<!--#include virtual="../.includes/page-header.shtml"-->
+<?php $page = array(
+    'title' => 'About me'
+); ?>
+
+<?php include '../.includes/page-header.php'; ?>
+
 <div style="text-align:center">
     <img width="50%" style="max-width: 256px" src="/.assets/img/avatar.jpeg"
         alt="An university-age chap in a very colourful room" class="img-avatar">
@@ -56,4 +60,5 @@
         <b><i>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</i></b>
     </p>
 </blockquote>
-<!--#include virtual="../.includes/page-footer.shtml"-->
+
+<?php include '../.includes/page-footer.php'; ?>

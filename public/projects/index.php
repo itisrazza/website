@@ -1,7 +1,10 @@
-<!--#set var="page_title" value="Projects"-->
-<!--#include virtual="../.includes/page-header.shtml"-->
+<?php $page = array(
+    'title' => 'Projects'
+); ?>
+
+<?php include '../.includes/page-header.php'; ?>
 
 <p>Projects-wise, I don't have much to brag about at the moment.</p>
 <p>You could take a look at <a href="https://github.com/thegreatrazz">my GitHub</a> and see if anything fancies you.</p>
 
-<!--#include virtual="../.includes/page-footer.shtml"-->
+<?php include '../.includes/page-footer.php'; ?>
