@@ -11,7 +11,7 @@
     /* fonts */
     --sans-font-family: "Inter", sans-serif;
     --sans-font-size:   16px;
-    --mono-font-family: "Iosevka Web", monospace;
+    --mono-font-family: "Source Code Pro", monospace;
     --mono-font-size:   var(--sans-font-size);
     --serif-font-famiy: "Noto Serif", serif;
 
@@ -63,9 +63,8 @@ a:hover, a:active {
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 900;
+    font-weight: 600;
     font-style: oblique;
-    text-transform: uppercase;
 }
 
 /* monospace */
@@ -76,10 +75,23 @@ pre, code {
     font-variant-ligatures: contextual;
 }
 
+/* blockquote */
+
+blockquote {
+    border: unset;
+    border-left: var(--color-foreground) solid 2px;
+    padding: 2px 0;
+    padding-left: 16px;
+    margin: 1em 0;
+}
+
 /* header */
 
 body > header {
     font-size: 14px;
+    background: #eeeeee;
+    padding: 8px;
+    border-radius: 32px;
 }
 
 body > header .back-button {
@@ -99,7 +111,6 @@ body > header .back-button:hover {
 body > header .title {
     font-style: italic;
     font-weight: 900;
-    text-transform: uppercase;
 }
 
 /* footer */

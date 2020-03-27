@@ -3,7 +3,7 @@
 
 <head>
     <?php include dirname(__FILE__) . '/head.html'; ?>
-    <title><?php if (isset($page['title'])) echo $page['title'] . ' &ndash'; ?> Raresh Nistor</title>
+    <title><?php if (isset($page['title'])) echo $page['title'] . ' &ndash;'; ?> Raresh Nistor</title>
 </head>
 
 <body>

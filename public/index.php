@@ -11,40 +11,29 @@
     <main>
         <header>
             <h1>Raresh Nistor</h1>
-            <p>
-                <script>
-                    let strings = [
-                        'I guess no-one disables JavaScript on modern browsers.',
-                        'Yep. This is randomly generated.',
-                        'I wonder what else I can put here...',
-                        '&lt;Insert self-referencial joke&gt;',
-                        '<code>document.write(strings[Math.random() * strings.length | 0])</code>'
-                    ]
-                    document.write(strings[Math.random() * strings.length | 0])
-                </script>
-                <noscript>Self-deprecating line generation failed</noscript>
-            </p>
         </header>
-        <p>
-            I work on <a href="https://github.com/thegreatrazz">some random projects</a> and occasionally <a
-                href="https://medium.com/@thegreatrazz">write stuff</a>.<br>
-            Also a <abbr title="Bachelor of Engineering with Honours">BE(Hons)</abbr> student at VUW.
-        </p>
-        <footer>
+        <div class="content">
             <p>
-                <a href="https://github.com/thegreatrazz">Projects</a> &middot;
-                <a href="https://medium.com/@thegreatrazz">Medium</a> &middot;
-                <a href="/files">Files</a> &middot;
-                <a href="/about">About</a>
+                I work on <a href="https://github.com/thegreatrazz">some random projects</a> and occasionally <a
+                    href="https://medium.com/@thegreatrazz">write stuff</a>.<br>
+                Also a <abbr title="Bachelor of Engineering with Honours">BE(Hons)</abbr> student at VUW.
             </p>
-            <p>
-                <a href="https://twitter.com/thegreatrazz">Twitter</a> ·
-                <a href="https://github.com/thegreatrazz">GitHub</a> ·
-                <a href="https://keybase.io/thegreatrazz/">Keybase</a> ·
-                <a href="mailto:me@thegreatrazz.nz">Email</a> ·
-                <a href="/files/pubkey.asc">Pubkey</a>
-            </p>
-        </footer>
+            <footer>
+                <ul>
+                    <li><a href="https://github.com/thegreatrazz">Projects</a></li>
+                    <li><a href="https://medium.com/@thegreatrazz">Medium</a></li>
+                    <li><a href="/files">Files</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://twitter.com/thegreatrazz">Twitter</a></li>
+                    <li><a href="https://github.com/thegreatrazz">GitHub</a></li>
+                    <li><a href="https://keybase.io/thegreatrazz/">Keybase</a></li>
+                    <li><a href="mailto:me@thegreatrazz.nz">Email</a></li>
+                    <li><a href="/files/pubkey.asc">Pubkey</a></li>
+                </ul>
+            </footer>
+        </div>
     </main>
 </body>
 

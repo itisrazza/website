@@ -14,9 +14,7 @@
     language and the odd thing.</p>
 
 <h1 id="get-in-touch">Get in touch</h1>
-<p>Online, I refer to myself under the monicker of <code>thegreatrazz</code>. Believe it or not, it's based
-    on a mispronunciation of my legal name.</p>
-<p>As with most people of my age, I'm on <a href="https://twitter.com/thegreatrazz">Twitter</a>.</p>
+<p>Online, I refer to myself under the monicker of <code>thegreatrazz</code>. As with most people of my age, I'm on <a href="https://twitter.com/thegreatrazz">Twitter</a>.</p>
 
 <h1>About this website</h1>
 <p>This website is written in plain HTML, CSS and JavaScript. Hosted on a $5/month DigitalOcean droplet.</p>
@@ -27,9 +25,8 @@
     <a href="https://github.com/thegreatrazz/website">GitHub</a> for your enjoyment.</p>
 
 <h2>Typefaces</h2>
-<p>This website uses <a href="https://rsms.me/inter/">Inter</a> by Rasmus Andersson, <a
-        href="https://www.ibm.com/plex/">Noto Serif</a> by Google Inc. and
-    <a href="https://typeof.net/Iosevka/">Iosevka</a> by Belleve Invis.</p>
+<p>This website uses <a href="https://rsms.me/inter/">Inter</a> by Rasmus Andersson and
+    <a href="https://adobe-fonts.github.io/source-code-pro/">Source Code Pro</a> by Adobe.</p>
 
 <blockquote style="font-family: 'Inter', sans-serif; font-style: normal">
     <h4>Inter</h4>
@@ -41,23 +38,11 @@
     </p>
 </blockquote>
 
-<blockquote style="font-family: 'Noto Serif', serif; font-style: normal">
-    <h4>Noto Serif</h4>
-    <p style="">
-        The Quick Brown Fox Jumped Over The Lazy Dog<br>
-        <i>The Quick Brown Fox Jumped Over The Lazy Dog</i><br>
-        <b>The Quick Brown Fox Jumped Over The Lazy Dog</b><br>
-        <b><i>The Quick Brown Fox Jumped Over The Lazy Dog</i></b>
-    </p>
-</blockquote>
-
-<blockquote style="font-family: 'Iosevka Web', monospace; font-style: normal">
-    <h4>Iosevka</h4>
+<blockquote style="font-family: 'Source Code Pro', monospace; font-style: normal">
+    <h4 style="font-style: unset;">Source Code Pro</h4>
     <p>
         int factorial(int x) => x >= 1 ? factorial(x - 1) : 1<br>
-        <i>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</i><br>
-        <b>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</b><br>
-        <b><i>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</i></b>
+        <b>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</b>
     </p>
 </blockquote>
 
