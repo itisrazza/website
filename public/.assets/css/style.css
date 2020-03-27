@@ -5,6 +5,7 @@
     /* colors for retinal burnout mode */
     --color-background:   #FAFAFA;
     --color-foreground:   #212121;
+    --color-well: #EEEEEE;
     --color-accent-dark:  #8E44AD;
     --color-accent-light: #9B59B6;
 
@@ -80,7 +81,8 @@ pre, code {
 blockquote {
     border: unset;
     border-left: var(--color-foreground) solid 2px;
-    padding: 2px 0;
+    background: var(--color-well);
+    padding: 2px 8px;
     padding-left: 16px;
     margin: 1em 0;
 }
@@ -89,7 +91,7 @@ blockquote {
 
 body > header {
     font-size: 14px;
-    background: #eeeeee;
+    background: var(--color-well);
     padding: 8px;
     border-radius: 32px;
 }
@@ -132,7 +134,8 @@ body > footer {
 
 .emoji {
     font-style: normal;
-    font-weight: normal;
+    font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
+    font-weight: 400;
 }
 
 /* comfort mode: my eyes thank me */
@@ -141,6 +144,7 @@ body > footer {
     :root {
         --color-background:   #212121;
         --color-foreground:   #FAFAFA;
+        --color-well: #484848;
         --color-accent-dark:  #CE93D8;
         --color-accent-light: #4A148C;
     }
