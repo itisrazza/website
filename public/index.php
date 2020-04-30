@@ -22,6 +22,7 @@
                 <ul>
                     <li><a href="https://github.com/thegreatrazz">Projects</a></li>
                     <li><a href="https://medium.com/@thegreatrazz">Medium</a></li>
+                    <li><a href="https://www.notion.so/thegreatrazz/Knowledge-Base-dea5ed1dfc994dd385261a85aa28411c" title="Knowledge Base">KB</a></li>
                     <li><a href="/files">Files</a></li>
                     <li><a href="/about">About</a></li>
                 </ul>
