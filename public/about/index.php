@@ -24,26 +24,4 @@
 <p>The website code (and configuration files I'm comfortable sharing) are on
     <a href="https://github.com/thegreatrazz/website">GitHub</a> for your enjoyment.</p>
 
-<h2>Typefaces</h2>
-<p>This website uses <a href="https://rsms.me/inter/">Inter</a> by Rasmus Andersson and
-    <a href="https://adobe-fonts.github.io/source-code-pro/">Source Code Pro</a> by Adobe.</p>
-
-<blockquote style="font-family: 'Inter', sans-serif; font-style: normal">
-    <h4>Inter</h4>
-    <p>
-        The Quick Brown Fox Jumped Over The Lazy Dog<br>
-        <i>The Quick Brown Fox Jumped Over The Lazy Dog</i><br>
-        <b>The Quick Brown Fox Jumped Over The Lazy Dog</b><br>
-        <b><i>The Quick Brown Fox Jumped Over The Lazy Dog</i></b>
-    </p>
-</blockquote>
-
-<blockquote style="font-family: 'Source Code Pro', monospace; font-style: normal">
-    <h4 style="font-style: unset;">Source Code Pro</h4>
-    <p>
-        int factorial(int x) => x >= 1 ? factorial(x - 1) : 1<br>
-        <b>int factorial(int x) => x >= 1 ? factorial(x - 1) : 1</b>
-    </p>
-</blockquote>
-
 <?php include '../.includes/page-footer.php'; ?>
