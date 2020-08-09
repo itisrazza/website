@@ -10,11 +10,10 @@
     --color-accent-light: #9B59B6;
 
     /* fonts */
-    --sans-font-family: "Manrope", sans-serif;
+    --sans-font-family: "Inter", sans-serif;
     --sans-font-size:   16px;
-    --mono-font-family: "Source Code Pro", monospace;
+    --mono-font-family: "DM Mono", monospace;
     --mono-font-size:   var(--sans-font-size);
-    --serif-font-famiy: "Noto Serif", serif;
 
     /* get going */
     font-family: var(--sans-font-family);
@@ -111,7 +110,7 @@ body > header .back-button:hover {
 }
 
 body > header .title {
-    font-weight: 900;
+    font-weight: 600;
 }
 
 /* footer */

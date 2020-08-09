@@ -4,9 +4,7 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-
-    --color-accent-light: #7D93AB;
-    --color-accent-dark:  #3A4246;
+    letter-spacing: -0.011em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +23,9 @@ body {
 
 body > main {
     color: #FAFAFA;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .5);
 }
 
 body > main p {
@@ -32,15 +33,16 @@ body > main p {
 }
 
 body > main header {
-    text-shadow: 0 4px 2px rgba(0, 0, 0, .5);
-    padding: 0 16px;
-    padding-bottom: 1.25em;
+    background: rgba(0, 0, 0, .5);
+    padding: 1.25em 2em;
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
 body > main header h1 {
-    margin-bottom: 0;
-    font-size: 4rem;
-    font-weight: 900;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: -0.022em;
 }
 
 body > main header p {
@@ -50,8 +52,6 @@ body > main header p {
 body > main .content {
     background: var(--color-background);
     color: var(--color-foreground);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, .5);
-    border-radius: 10px;
     padding: 8px 16px;
 }
 
@@ -64,17 +64,42 @@ body > main .content :last-child {
 }
 
 body > main ul {
-    display: block;
+    display: flex;
     padding: 0;
     margin: 0.6em 0;
+    justify-content: center;
+    align-items: center;
 }
 
 body > main ul li {
-    display: inline;
+    display: block;
 }
 
-body > main ul li:not(:last-child)::after {
-    content: ' · ';
+body > main ul li a {
+    display: flex;
+    color: var(--color-foreground);
+    border: none;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background .1s, color .1s;
+    justify-content: center;
+    align-items: center;
+}
+
+body > main ul li a:hover {
+    border: none;
+    background: var(--color-accent-light);
+    color: #FAFAFA;
+}
+
+body > main ul li a:active {
+    background: var(--color-foreground);
+    color: var(--color-background);
+}
+
+body > main ul li a > svg {
+    padding-right: 0.5em;
 }
 
 body > main footer {
@@ -83,8 +108,7 @@ body > main footer {
 
 @media screen and (max-width: 500px) {
     :root {
-        background-attachment: fixed;
-        min-height: unset;
+        background: none;
     }
 
     body {
@@ -97,51 +121,32 @@ body > main footer {
         min-width: none;
         max-width: none;
         box-shadow: none;
-        margin-left: 8px;
-        margin-right: 8px; 
-        margin-bottom: 8px;
+        border-radius: 0;
     }
 
     body > main header {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 1.5em;
+        backdrop-filter: none;
+    }
+
+    body > main .content {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 
     body > main ul {
-        margin-bottom: 2em;
-    }
-
-    body > main ul li {
-        display: block;
-        margin-bottom: 4px;
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 1.5em;
     }
 
     body > main ul li a {
-        display: block;
-        text-align: center;
-        border: 1px solid var(--color-accent-dark);
-        padding: 6px 12px;
-        border-radius: 32px;
-    }
-
-    body > main ul li a:hover,
-    body > main ul li a:active {
-        background: var(--color-accent-dark);
-        color: var(--color-background);
-    }
-
-    body > main ul li:not(:last-child)::after {
-        content: unset;
+        justify-content: flex-start;
+        margin: 0 -1em;
     }
 
     body > main header h1 {
         font-size: 2.5rem;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-accent-dark: #7D93AB;
-        --color-accent-light:  #3A4246;
+        letter-spacing: -0.022em;
     }
 }
