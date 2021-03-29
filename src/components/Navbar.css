@@ -1,0 +1,25 @@
+.Navbar {
+  display: flex;
+  min-height: 10vh;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: var(--colour-background-darker);
+}
+
+.Navbar .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Navbar .navbar-home {
+  font-style: unset;
+  padding: 8px;
+  margin-right: 8px;
+  border: unset;
+}
+
+.Navbar .navbar-title {
+  font-weight: 700;
+  font-family: var(--font-head-family);
+}

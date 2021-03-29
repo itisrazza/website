@@ -1,0 +1,127 @@
+[
+  {
+    "name": "SuperSize",
+    "description": "A customisable tool for maximising windows across screens.",
+    "link": "https://github.com/thegreatrazz/SuperSize"
+  },
+  {
+    "name": "Homepage",
+    "description": "A home page with useful links to my part of the internet.",
+    "link": "https://github.com/thegreatrazz/homepage"
+  },
+  {
+    "name": "Metlink GTFS Repo",
+    "description": "Metlink's Transit Feed, with additional data.",
+    "link": "https://github.com/thegreatrazz/metlink-gtfs"
+  },
+  {
+    "name": "Annual Fireworks",
+    "description": "Firework animations I stream to celebrate New Year's.",
+    "link": "https://github.com/thegreatrazz/annual-fireworks"
+  },
+  {
+    "name": "VGAPainter",
+    "description": "A simple paint program targeting MCGA/VGA 256-color mode (Mode 13h).",
+    "link": "https://github.com/thegreatrazz/VGAPainter"
+  },
+  {
+    "name": "Coronabot",
+    "description": "The bot overseeing the 'CoronaClub' Discord server.",
+    "link": "https://github.com/thegreatrazz/coronabot"
+  },
+  {
+    "name": "StateIt",
+    "description": "A state machine modelling thing.",
+    "link": "https://github.com/thegreatrazz/StateIt"
+  },
+  {
+    "name": "Тетрис Рареша",
+    "description": "A fun way to learn C++ and libSDL.",
+    "link": "https://github.com/thegreatrazz/tetris"
+  },
+  {
+    "name": "Brainf**k Compiler",
+    "description": "-",
+    "link": "https://github.com/thegreatrazz/bfc"
+  },
+  {
+    "name": "wwwserve",
+    "description": "A simple web server written in Node.js.",
+    "link": "https://www.npmjs.com/package/wwwserve"
+  },
+  {
+    "name": "Markset",
+    "description": "Markdown typesetter. Perhaps a misnomer.",
+    "link": "https://www.npmjs.com/package/markset"
+  },
+  {
+    "name": "LearnSQL",
+    "description": "A browser-side database system for learning SQL.",
+    "link": "https://github.com/thegreatrazz/LearnSQL"
+  },
+  {
+    "name": "Crawl Generator",
+    "description": "A credits crawl image generator",
+    "link": "https://github.com/thegreatrazz/CrawlGen/releases/tag/the-only-one"
+  },
+  {
+    "name": "UNIX Authentication for Nextcloud.",
+    "description": "-",
+    "link": "https://github.com/thegreatrazz/user_pwauth_ex"
+  },
+  {
+    "name": "fx-9860G File Metadata",
+    "description": "-",
+    "link": "https://github.com/thegreatrazz/fx-meta"
+  },
+  {
+    "name": "CASIO Pong",
+    "description": "Yet another Pong clone, but this time... it's on a calculator... in C.",
+    "link": "https://github.com/thegreatrazz/casio-pong"
+  },
+  {
+    "name": "BetaMuseum",
+    "description": "A museum with old software relics.",
+    "link": "https://github.com/thegreatrazz/betamuseum-og"
+  },
+  {
+    "name": "JK Lee",
+    "description": "'Lee' is a joke program that mysteriosly types a message to the user and restarts the computer.",
+    "link": "https://github.com/thegreatrazz/jk-lee"
+  },
+  {
+    "name": "Conic Sections",
+    "description": "A quick conic section plotter for absolutely no reason.",
+    "link": "https://thegreatrazz.github.io/conic-sections/"
+  },
+  {
+    "name": "TCP Listener",
+    "description": "A simple TCP listener that blurts out whatever it reads.",
+    "link": "https://www.npmjs.com/package/tcp-listener"
+  },
+  {
+    "name": "VR Experiments",
+    "description": "Some VR Experiments I wanna play around with.",
+    "link": "https://thegreatrazz.github.io/vr-experiments/"
+  },
+  {
+    "name": "Notify.js",
+    "description": "Notification that appears inside the webpage.",
+    "link": "https://github.com/thegreatrazz/notify.js"
+  },
+  {
+    "name": "Slidey",
+    "description": "A simple slideshow solution written in pure JavaScript and CSS.",
+    "link": "https://github.com/thegreatrazz/slidey"
+  },
+  {
+    "name": "Words on Digital Paper (Engine)",
+    "description": "Batch script resident on the camera SD card to quickly dump images.",
+    "link": "https://github.com/thegreatrazz/wodp-engine"
+  },
+  {
+    "name": "Camera Dump",
+    "description": "Batch script resident on the camera SD card to quickly dump images.",
+    "link": "https://github.com/thegreatrazz/cameradump"
+  }
+]
