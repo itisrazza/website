@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ProjectButton from "../components/ProjectButton";
 import links from "../data/links.json";
@@ -6,6 +6,8 @@ import projects from "../data/projects.json";
 import "./Projects.css";
 
 export default function Projects() {
+  useEffect(() => window.scrollTo(0, 0));
+
   return (
     <>
       <Navbar title="Projects" />

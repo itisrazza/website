@@ -4,6 +4,7 @@ import projects from "../data/projects.json";
 import ProjectButton from "../components/ProjectButton";
 import { useEffect, useState } from "react";
 import links from "../data/links.json";
+import Icon from "../components/Icon";
 
 const alternateNames = [
   "Raresh Nistor", // english
@@ -15,6 +16,7 @@ export default function Home() {
   let [name, setName] = useState(alternateNames[0]);
   useEffect(() => {
     setName(alternateNames[(alternateNames.length * Math.random()) | 0]);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -42,41 +44,43 @@ export default function Home() {
               <span className="hide-small">Links</span>
             </h2>
             <div className="link-stack">
-              <Link to="/about">About 🡒</Link>
+              <Link to="/about">
+                About <Icon icon="arrowRight" />
+              </Link>
               <a
                 href="//notion.so/thegreatrazz/d5024bf1e6344c49a561f7a4ff7fe769?v=57a969aad0924012961ca3b9e214ae16"
                 target="_black"
                 rel="noreferrer"
               >
-                Notes 🡒
+                Notes <Icon icon="arrowRight" />
               </a>
               <a
                 href="//twitter.com/thegreatrazz"
                 target="_black"
                 rel="noreferrer"
               >
-                Twitter 🡒
+                Twitter <Icon icon="arrowRight" />
               </a>
               <a
                 href="//github.com/thegreatrazz"
                 target="_black"
                 rel="noreferrer"
               >
-                GitHub 🡒
+                GitHub <Icon icon="arrowRight" />
               </a>
               <a
                 href="mailto:raresh@nistor.email"
                 target="_black"
                 rel="noreferrer"
               >
-                Email 🡒
+                Email <Icon icon="arrowRight" />
               </a>
             </div>
           </div>
 
           <div>
             <h2 style={{ gridColumn: 1, gridRow: 1 }}>Projects</h2>
-            {projects.slice(0, 5).map((project) => (
+            {projects.slice(0, 3).map((project) => (
               <ProjectButton
                 name={project.name}
                 link={project.link}
@@ -84,7 +88,9 @@ export default function Home() {
               />
             ))}
             <br />
-            <Link to="/projects">All Projects 🡒</Link>
+            <Link to="/projects">
+              All Projects <Icon icon="arrowRight" />
+            </Link>
           </div>
         </div>
       </main>
