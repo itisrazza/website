@@ -30,19 +30,9 @@
     "link": "https://github.com/thegreatrazz/coronabot"
   },
   {
-    "name": "StateIt",
-    "description": "A state machine modelling thing.",
-    "link": "https://github.com/thegreatrazz/StateIt"
-  },
-  {
     "name": "Тетрис Рареша",
     "description": "A fun way to learn C++ and libSDL.",
     "link": "https://github.com/thegreatrazz/tetris"
-  },
-  {
-    "name": "Brainf**k Compiler",
-    "description": "-",
-    "link": "https://github.com/thegreatrazz/bfc"
   },
   {
     "name": "wwwserve",
@@ -57,7 +47,7 @@
   {
     "name": "LearnSQL",
     "description": "A browser-side database system for learning SQL.",
-    "link": "https://github.com/thegreatrazz/LearnSQL"
+    "link": "https://thegreatrazz.github.io/LearnSQL"
   },
   {
     "name": "Crawl Generator",
@@ -65,13 +55,13 @@
     "link": "https://github.com/thegreatrazz/CrawlGen/releases/tag/the-only-one"
   },
   {
-    "name": "UNIX Authentication for Nextcloud.",
-    "description": "-",
+    "name": "UNIX Authentication for Nextcloud",
+    "description": "A patched up NextCloud plugin for signing is as the server's UNIX user accounts.",
     "link": "https://github.com/thegreatrazz/user_pwauth_ex"
   },
   {
     "name": "fx-9860G File Metadata",
-    "description": "-",
+    "description": "A program for parsing the metadata for a fx-9860G add-on.",
     "link": "https://github.com/thegreatrazz/fx-meta"
   },
   {
@@ -82,12 +72,7 @@
   {
     "name": "BetaMuseum",
     "description": "A museum with old software relics.",
-    "link": "https://github.com/thegreatrazz/betamuseum-og"
-  },
-  {
-    "name": "JK Lee",
-    "description": "'Lee' is a joke program that mysteriosly types a message to the user and restarts the computer.",
-    "link": "https://github.com/thegreatrazz/jk-lee"
+    "link": "https://thegreatrazz.github.io/betamuseum-og/"
   },
   {
     "name": "Conic Sections",
@@ -107,12 +92,12 @@
   {
     "name": "Notify.js",
     "description": "Notification that appears inside the webpage.",
-    "link": "https://github.com/thegreatrazz/notify.js"
+    "link": "http://thegreatrazz.github.io/notify.js/"
   },
   {
     "name": "Slidey",
     "description": "A simple slideshow solution written in pure JavaScript and CSS.",
-    "link": "https://github.com/thegreatrazz/slidey"
+    "link": "https://slidey.js.org"
   },
   {
     "name": "Words on Digital Paper (Engine)",
