@@ -37,6 +37,6 @@ jobs:
         with:
           server: ${{ secrets.server_hostname }}
           username: ${{ secrets.server_username }}
-          password: ${{ secrets.server_password }} 
+          ssh_private_key: ${{ secrets.server_password }} 
           local_path: build/*
           remote_path: /home/razz/website
