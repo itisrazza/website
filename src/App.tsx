@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 
 export default function App() {
@@ -13,9 +14,7 @@ export default function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/" exact={true} component={Home} />
-          <Route path="*" exact={true}>
-            Not found ;(
-          </Route>
+          <Route path="*" exact={true} component={NotFound} />
         </Switch>
       </Router>
       <Footer />

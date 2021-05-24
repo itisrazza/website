@@ -5,8 +5,12 @@
 }
 
 .project-button .project-name {
-  font-weight: 700;
+  font-family: var(--font-head-family);
   margin: 0.2em 0;
+}
+
+.project-button .project-name a {
+  font-style: normal;
 }
 
 .project-button .project-description {

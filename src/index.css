@@ -1,13 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Domine:wght@400;500;700&family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&display=swap");
 
 :root {
   --colour-background: #fafafa;
   --colour-background-darker: #eee;
   --colour-foreground: #212121;
   --colour-contrast-opacity: 0.8;
-  --font-body-family: "Libre Franklin", sans-serif;
-  --font-head-family: "Domine", serif;
-  --font-mono-family: "Courier Prime", monospace;
+  --colour-accent: rgb(48, 79, 254);
+  --colour-accent-lighter: rgb(68, 138, 255);
+  --font-body-family: "DM Sans", sans-serif;
+  --font-head-family: "DM Serif Text", serif;
+  --font-mono-family: "DM Mono", monospace;
 }
 
 body {
@@ -21,8 +23,7 @@ body {
 }
 
 a {
-  color: unset;
-  opacity: var(--colour-contrast-opacity);
+  color: var(--colour-accent-lighter);
   text-decoration: unset;
   border-bottom: 2px solid;
   font-style: italic;
@@ -31,7 +32,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  opacity: 1;
+  color: var(--colour-accent);
 }
 
 .container {
@@ -78,7 +79,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-head-family);
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 1em;
   margin-bottom: 0.2em;
 }
@@ -88,6 +89,8 @@ h6 {
     --colour-background: #1a1a1a;
     --colour-background-darker: #303030;
     --colour-foreground: #fafafa;
+    --colour-accent: rgb(255, 255, 0);
+    --colour-accent-lighter: rgb(255, 214, 0);
     --colour-contrast-opacity: 0.7;
   }
 }

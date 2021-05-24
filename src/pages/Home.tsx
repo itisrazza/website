@@ -19,6 +19,9 @@ export default function Home() {
     window.scrollTo(0, 0);
   }, []);
 
+  const projectPreview = () =>
+    projects.sort(() => (Math.random() < 0.5 ? -1 : 1)).slice(0, 3);
+
   return (
     <div className="Home">
       <header>
@@ -80,8 +83,9 @@ export default function Home() {
 
           <div>
             <h2 style={{ gridColumn: 1, gridRow: 1 }}>Projects</h2>
-            {projects.slice(0, 3).map((project) => (
+            {projectPreview().map((project) => (
               <ProjectButton
+                key={project.name}
                 name={project.name}
                 link={project.link}
                 description={project.description}
