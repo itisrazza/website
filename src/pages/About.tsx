@@ -34,6 +34,31 @@ export default function About() {
             You can also get in touch with me{" "}
             <a href="mailto:raresh@nistor.email">by email</a>.
           </p>
+
+          <h1>This Website</h1>
+          <p>
+            This website is made with{" "}
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+              React
+            </a>{" "}
+            and (will soon be) hosted on{" "}
+            <a
+              href="https://pages.github.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Pages
+            </a>
+            . You can grab a copy of the source code from{" "}
+            <a
+              href="https://github.com/thegreatrazz/website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            .
+          </p>
         </div>
       </main>
     </>

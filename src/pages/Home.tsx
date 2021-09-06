@@ -31,10 +31,15 @@ export default function Home() {
           <TypewriterHeading>{name}</TypewriterHeading>
           <p>
             I'm a Wellingtonian software engineering student at{" "}
-            <a href="//wgtn.ac.nz" target="_black" rel="noreferrer">
+            <a
+              href="//wgtn.ac.nz"
+              target="_black"
+              rel="noreferrer"
+              title="Victoria University of Wellington"
+            >
               VUW
             </a>
-            . I work on <Link to="/projects">various random projects</Link> and{" "}
+            . I work on <Link to="/projects">various projects</Link> and{" "}
             <a href={links.notion} target="_blank" rel="noreferrer">
               write notes
             </a>{" "}

@@ -31,7 +31,7 @@
   },
   {
     "name": "Тетрис Рареша",
-    "description": "A fun way to learn C++ and libSDL.",
+    "description": "A retro-looking Tetris clone to learn SDL.",
     "link": "https://github.com/thegreatrazz/tetris"
   },
   {
@@ -70,11 +70,6 @@
     "link": "https://github.com/thegreatrazz/casio-pong"
   },
   {
-    "name": "BetaMuseum",
-    "description": "A museum with old software relics.",
-    "link": "https://thegreatrazz.github.io/betamuseum-og/"
-  },
-  {
     "name": "Conic Sections",
     "description": "A quick conic section plotter for absolutely no reason.",
     "link": "https://thegreatrazz.github.io/conic-sections/"
@@ -86,7 +81,7 @@
   },
   {
     "name": "VR Experiments",
-    "description": "Some VR Experiments I wanna play around with.",
+    "description": "Simple experiments for use with VR phone holders (Google Cardboard).",
     "link": "https://thegreatrazz.github.io/vr-experiments/"
   },
   {
@@ -101,8 +96,13 @@
   },
   {
     "name": "Words on Digital Paper (Engine)",
-    "description": "Batch script resident on the camera SD card to quickly dump images.",
+    "description": "Blog platform for a high school assignment (2TCD).",
     "link": "https://github.com/thegreatrazz/wodp-engine"
+  },
+  {
+    "name": "BetaMuseum",
+    "description": "A museum with old software relics (1TCD).",
+    "link": "https://thegreatrazz.github.io/betamuseum-og/"
   },
   {
     "name": "Camera Dump",
