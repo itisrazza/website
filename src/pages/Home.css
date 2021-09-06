@@ -21,6 +21,10 @@
   margin: 0.2em;
 }
 
+.Home .link-stack a::after {
+  content: " →";
+}
+
 @media (min-width: 600px) {
   .Home > main > .container {
     display: grid;

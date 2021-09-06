@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import links from "../data/links.json";
 import Icon from "../components/Icon";
 import { TypewriterHeading } from "../components/TypewriterHeading";
+import { MdArrowForward } from "react-icons/md";
 
 const alternateNames = [
   "Raresh Nistor", // english
@@ -48,36 +49,34 @@ export default function Home() {
               <span className="hide-small">Links</span>
             </h2>
             <div className="link-stack">
-              <Link to="/about">
-                About <Icon icon="arrowRight" />
-              </Link>
+              <Link to="/about">About</Link>
               <a
                 href="//notion.so/thegreatrazz/d5024bf1e6344c49a561f7a4ff7fe769?v=57a969aad0924012961ca3b9e214ae16"
                 target="_black"
                 rel="noreferrer"
               >
-                Notes <Icon icon="arrowRight" />
+                Notes
               </a>
               <a
                 href="//twitter.com/thegreatrazz"
                 target="_black"
                 rel="noreferrer"
               >
-                Twitter <Icon icon="arrowRight" />
+                Twitter
               </a>
               <a
                 href="//github.com/thegreatrazz"
                 target="_black"
                 rel="noreferrer"
               >
-                GitHub <Icon icon="arrowRight" />
+                GitHub
               </a>
               <a
                 href="mailto:raresh@nistor.email"
                 target="_black"
                 rel="noreferrer"
               >
-                Email <Icon icon="arrowRight" />
+                Email
               </a>
             </div>
           </div>
