@@ -5,6 +5,7 @@ import ProjectButton from "../components/ProjectButton";
 import { useEffect, useState } from "react";
 import links from "../data/links.json";
 import Icon from "../components/Icon";
+import { TypewriterHeading } from "../components/TypewriterHeading";
 
 const alternateNames = [
   "Raresh Nistor", // english
@@ -26,7 +27,7 @@ export default function Home() {
     <div className="Home">
       <header>
         <div className="container">
-          <h1>{name}</h1>
+          <TypewriterHeading>{name}</TypewriterHeading>
           <p>
             I'm a Wellingtonian software engineering student at{" "}
             <a href="//wgtn.ac.nz" target="_black" rel="noreferrer">
