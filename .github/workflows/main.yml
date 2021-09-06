@@ -2,11 +2,11 @@
 
 name: Deploy
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   push:
-    branches: [ main ]
-    
+    branches: [main]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
 
@@ -37,6 +37,14 @@ jobs:
         with:
           server: ${{ secrets.server_hostname }}
           username: ${{ secrets.server_username }}
-          ssh_private_key: ${{ secrets.server_password }} 
+          ssh_private_key: ${{ secrets.server_password }}
           local_path: build/*
           remote_path: /home/razz/website
+
+      # deploy to GitHub pages
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Website/dist
+          cname: ghtest.thegreatrazz.nz
