@@ -31,16 +31,6 @@ jobs:
         env:
           CI: false
 
-      # deploy to website
-      - name: SFTP Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.1
-        with:
-          server: ${{ secrets.server_hostname }}
-          username: ${{ secrets.server_username }}
-          ssh_private_key: ${{ secrets.server_password }}
-          local_path: build/*
-          remote_path: /home/razz/website
-
       # deploy to GitHub pages
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
