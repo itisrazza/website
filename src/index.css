@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;700;900&family=JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap");
 
 :root {
   --colour-background: #fafafa;
@@ -7,8 +7,8 @@
   --colour-contrast-opacity: 0.8;
   --colour-accent: #3949ab;
   --colour-accent-lighter: #304ffe;
-  --font-body-family: "Inter", sans-serif;
-  --font-head-family: "Inter", sans-serif;
+  --font-body-family: "Readex Pro", sans-serif;
+  --font-head-family: "Readex Pro", sans-serif;
   --font-mono-family: "Jetbrains Mono", monospace;
 }
 
